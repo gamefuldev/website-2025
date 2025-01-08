@@ -1,4 +1,8 @@
-export default function Availability(props) {
+interface AvailabilityProps {
+  available: boolean;
+}
+
+export default function Availability(props: AvailabilityProps) {
   if (props.available) {
     return <span className="inline-block bg-green-700 px-2 py-1 mx-1 rounded-sm text-white">available</span>
   } else {
