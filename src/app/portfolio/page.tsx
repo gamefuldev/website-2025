@@ -1,4 +1,10 @@
 import WorkList from "@/components/work/WorkList";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Our completed projects - Gameful Software Ltd",
+  description: "",
+};
 
 export default function WorkPage() {
   return (

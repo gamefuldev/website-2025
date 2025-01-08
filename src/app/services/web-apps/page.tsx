@@ -1,5 +1,11 @@
 import ServiceSingle from "@/components/ServiceSingle";
 import TestimonialSingle from "@/components/TestimonialSingle";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Custom web application development services - Gameful Software Ltd",
+  description: "",
+};
 
 export default function WebApplcations() {
   return (

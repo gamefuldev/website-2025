@@ -1,6 +1,12 @@
 import ServiceSingle from "@/components/ServiceSingle";
 import TestimonialSingle from "@/components/TestimonialSingle";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Website development services - Gameful Software Ltd",
+  description: "",
+};
 
 export default function StaticWeb() {
   return (
