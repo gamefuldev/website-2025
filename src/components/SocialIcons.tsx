@@ -5,7 +5,7 @@ export default function SocialIcons() {
     <> 
       <div className="social-icons flex gap-4">
         { /* Youtube*/ }
-        <Link href="https://www.youtube.com/@gamefuldev/" className="[&>svg]:h-6 [&>svg]:w-6">
+        <Link href="https://www.youtube.com/@gamefuldev/" className="[&>svg]:h-6 [&>svg]:w-6 hover:scale-125 transition-transform">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -16,7 +16,7 @@ export default function SocialIcons() {
         </Link>
 
         { /* TikTok */ }
-        <Link href="https://www.tiktok.com/@gamefuldev" className="[&>svg]:h-6 [&>svg]:w-6">
+        <Link href="https://www.tiktok.com/@gamefuldev" className="[&>svg]:h-6 [&>svg]:w-6 hover:scale-125 transition-transform">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -27,7 +27,7 @@ export default function SocialIcons() {
         </Link>
 
         { /* X */}
-        <Link href="https://x.com/gamefuldev" className="[&>svg]:h-6 [&>svg]:w-6">
+        <Link href="https://x.com/gamefuldev" className="[&>svg]:h-6 [&>svg]:w-6 hover:scale-125 transition-transform">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -38,7 +38,7 @@ export default function SocialIcons() {
         </Link>
 
         { /* Discord */ }
-        <Link href="https://discord.gg/BypB7jMRWW" className="[&>svg]:h-6 [&>svg]:w-6">
+        <Link href="https://discord.gg/BypB7jMRWW" className="[&>svg]:h-6 [&>svg]:w-6 hover:scale-125 transition-transform">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -49,7 +49,7 @@ export default function SocialIcons() {
         </Link>
 
         { /* GitHub */ }
-        <Link href="https://www.github.com/gamefuldev" className="[&>svg]:h-6 [&>svg]:w-6">
+        <Link href="https://www.github.com/gamefuldev" className="[&>svg]:h-6 [&>svg]:w-6 hover:scale-125 transition-transform">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -60,7 +60,7 @@ export default function SocialIcons() {
         </Link>
 
         {/* LinkedIn */ }
-        <Link href="https://www.linkedin.com/company/90766681" className="[&>svg]:h-6 [&>svg]:w-6">
+        <Link href="https://www.linkedin.com/company/90766681" className="[&>svg]:h-6 [&>svg]:w-6 hover:scale-125 transition-transform">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
