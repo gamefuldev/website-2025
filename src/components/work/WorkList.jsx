@@ -5,16 +5,16 @@ const work_items = [
     title: "Taughtly - LearnDash Driven Learning Platform",
     url: "https://www.taughtly.co.uk",
     image: {
-      url: "/img/work/taughtly/taughtly.png",
+      url: "/img/work/taughtly/taughtly_v2.png",
       alt: "Online learning platform Taughtly"
     },
-    tags: ["Next.js", "React", "WordPress", "Tailwind CSS", "WooCommerce"]
+    tags: ["WordPress", "Tailwind CSS", "WooCommerce", "LearnDash"]
   },
   {
-    title: "Dulwich Game Jam - Hugo powered competition website",
+    title: "EiM Worldwise Game Jam - Hugo powered competition website",
     url: "https://gamejam.dulwich.org",
     image: {
-      url: "/img/work/dgj/dgj.png",
+      url: "/img/work/dgj/wgj2025.png",
       alt: "Game making competition website"
     },
     tags: ["Hugo", "Markdown", "SCSS", "JavaScript", "Static Site Generator"]
@@ -41,7 +41,7 @@ const work_items = [
 
 export default function WorkList() {
   return (
-    <ul className="w-full max-w-screen-2xl m-auto p-8 md:p-16 flex flex-col">
+    <ul className="w-full max-w-screen-xl m-auto p-8 md:p-16 flex flex-col gap-8">
       {work_items.map(work => (
         <WorkItem 
           key={work.title}
